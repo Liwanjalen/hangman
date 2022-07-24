@@ -30,7 +30,7 @@ def hangman():
             break
     if not win:
         print('You lose! The word was:')
-        print(''.join(score_board))
+        print(word)
         print('\n'.join(phases[0:wrong_guesses]))
         print('You lose!')
 
